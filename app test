@@ -5,6 +5,7 @@
   "feature_controls": {
     "show_background_button": false,
     "show_download_button": false
+    "show_video_audio_settings": false
   },
   "placements": {
     "home_native": {
