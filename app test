@@ -7,8 +7,8 @@
     "home_native": {
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
-      "frequency": 8,
-      "max_ads": 5
+      "frequency": 6,
+      "max_ads": 10
     },
 
     "search_native": {
