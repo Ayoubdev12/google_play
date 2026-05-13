@@ -2,54 +2,50 @@
   "ads_enabled": true,
   "test_mode": true,
   "ad_provider": "yandex",
-
+  "feature_controls": {
+    "show_background_button": false,
+    "show_download_button": false
+  },
   "placements": {
     "home_native": {
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
-      "frequency": 6,
-      "max_ads": 10
+      "frequency": 8,
+      "max_ads": 5
     },
-
     "search_native": {
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
       "frequency": 10,
       "max_ads": 3
     },
-
     "detail_banner": {
       "enabled": true,
       "ad_unit_id": "demo-banner-yandex"
     },
-
     "bookmark_banner": {
       "enabled": true,
       "ad_unit_id": "demo-banner-yandex"
     },
-
     "rewarded_download": {
       "enabled": true,
       "ad_unit_id": "demo-rewarded-yandex",
       "skip_allowed": true,
       "skip_delay_seconds": 5
     },
-
-    "interstitial_after_video_clicks": {
-      "enabled": true,
-      "ad_unit_id": "demo-interstitial-yandex",
-      "click_threshold": 3,
-      "cooldown_seconds": 300
-    },
-
     "app_open": {
       "enabled": true,
       "ad_unit_id": "demo-interstitial-yandex",
       "cooldown_seconds": 120,
       "show_on_cold_start": false
+    },
+    "interstitial_after_video_clicks": {
+      "enabled": true,
+      "ad_unit_id": "demo-interstitial-yandex",
+      "click_threshold": 3,
+      "cooldown_seconds": 300
     }
   },
-
   "global_settings": {
     "min_session_duration_seconds": 30,
     "config_refresh_interval_minutes": 60,
