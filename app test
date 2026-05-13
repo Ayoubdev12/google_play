@@ -1,1 +1,44 @@
-ok
+{
+  "ads_enabled": true,
+  "test_mode": true,
+  "ad_provider": "yandex",
+  "placements": {
+    "home_native": {
+      "enabled": true,
+      "ad_unit_id": "demo-native-content-yandex",
+      "frequency": 8,
+      "max_ads": 5
+    },
+    "search_native": {
+      "enabled": true,
+      "ad_unit_id": "demo-native-content-yandex",
+      "frequency": 10,
+      "max_ads": 3
+    },
+    "detail_banner": {
+      "enabled": true,
+      "ad_unit_id": "demo-banner-yandex"
+    },
+    "bookmark_banner": {
+      "enabled": true,
+      "ad_unit_id": "demo-banner-yandex"
+    },
+    "rewarded_download": {
+      "enabled": true,
+      "ad_unit_id": "demo-rewarded-yandex",
+      "skip_allowed": true,
+      "skip_delay_seconds": 5
+    },
+    "app_open": {
+      "enabled": true,
+      "ad_unit_id": "demo-interstitial-yandex",
+      "cooldown_seconds": 120,
+      "show_on_cold_start": false
+    }
+  },
+  "global_settings": {
+    "min_session_duration_seconds": 30,
+    "config_refresh_interval_minutes": 60,
+    "no_ads_during_playback": true
+  }
+}
