@@ -1,7 +1,7 @@
 {
   "ads_enabled": true,
   "test_mode": true,
-  "ad_provider": "facebook",
+  "ad_provider": "yandex",
   "providers": {
     "yandex": { "enabled": true },
     "facebook": { "enabled": true }
