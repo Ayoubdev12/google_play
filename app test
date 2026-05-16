@@ -17,7 +17,7 @@
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_NATIVE_ID"
+        "facebook": "VID_HD_16_9_46S_APP_INSTALL#2312433698835503_2964953546916845"
       },
       "frequency": 8,
       "max_ads": 5
@@ -26,7 +26,7 @@
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_NATIVE_ID"
+        "facebook": "VID_HD_16_9_46S_APP_INSTALL#2312433698835503_2964953546916845"
       },
       "frequency": 10,
       "max_ads": 3
@@ -35,7 +35,7 @@
       "enabled": true,
       "ad_unit_id": "demo-banner-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_BANNER_ID"
+        "facebook": "IMG_16_9_APP_INSTALL#2312433698835503_2650502521695284"
       }
     },
     "bookmark_banner": {
@@ -67,7 +67,7 @@
       "enabled": true,
       "ad_unit_id": "demo-interstitial-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID"
+        "facebook": "IMG_16_9_APP_INSTALL#2312433698835503_2964944860251047"
       },
       "click_threshold": 3,
       "cooldown_seconds": 300
