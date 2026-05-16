@@ -1,10 +1,11 @@
 {
   "ads_enabled": true,
   "test_mode": true,
-  "ad_provider": "yandex",
+  "ad_provider": "admob",
   "providers": {
     "yandex": { "enabled": true },
-    "facebook": { "enabled": true }
+    "facebook": { "enabled": true },
+    "admob": { "enabled": true }
   },
   "fallback_providers": [],
   "feature_controls": {
@@ -17,7 +18,8 @@
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
       "ad_unit_ids": {
-        "facebook": "VID_HD_16_9_46S_APP_INSTALL#2312433698835503_2964953546916845"
+        "facebook": "YOUR_FACEBOOK_NATIVE_ID",
+        "admob": "ca-app-pub-3940256099942544/2247696110"
       },
       "frequency": 8,
       "max_ads": 5
@@ -26,7 +28,8 @@
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
       "ad_unit_ids": {
-        "facebook": "VID_HD_16_9_46S_APP_INSTALL#2312433698835503_2964953546916845"
+        "facebook": "YOUR_FACEBOOK_NATIVE_ID",
+        "admob": "ca-app-pub-3940256099942544/2247696110"
       },
       "frequency": 10,
       "max_ads": 3
@@ -35,21 +38,24 @@
       "enabled": true,
       "ad_unit_id": "demo-banner-yandex",
       "ad_unit_ids": {
-        "facebook": "IMG_16_9_APP_INSTALL#2312433698835503_2650502521695284"
+        "facebook": "YOUR_FACEBOOK_BANNER_ID",
+        "admob": "ca-app-pub-3940256099942544/6300978111"
       }
     },
     "bookmark_banner": {
       "enabled": true,
       "ad_unit_id": "demo-banner-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_BANNER_ID"
+        "facebook": "YOUR_FACEBOOK_BANNER_ID",
+        "admob": "ca-app-pub-3940256099942544/6300978111"
       }
     },
     "rewarded_download": {
       "enabled": true,
       "ad_unit_id": "demo-rewarded-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_REWARDED_ID"
+        "facebook": "YOUR_FACEBOOK_REWARDED_ID",
+        "admob": "ca-app-pub-3940256099942544/5224354917"
       },
       "skip_allowed": true,
       "skip_delay_seconds": 5
@@ -58,7 +64,8 @@
       "enabled": true,
       "ad_unit_id": "demo-interstitial-yandex",
       "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID"
+        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID",
+        "admob": "ca-app-pub-3940256099942544/1033173712"
       },
       "cooldown_seconds": 120,
       "show_on_cold_start": false
@@ -67,7 +74,8 @@
       "enabled": true,
       "ad_unit_id": "demo-interstitial-yandex",
       "ad_unit_ids": {
-        "facebook": "IMG_16_9_APP_INSTALL#2312433698835503_2964944860251047"
+        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID",
+        "admob": "ca-app-pub-3940256099942544/1033173712"
       },
       "click_threshold": 3,
       "cooldown_seconds": 300
