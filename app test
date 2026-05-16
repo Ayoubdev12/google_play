@@ -1,48 +1,74 @@
 {
   "ads_enabled": true,
   "test_mode": true,
-  "ad_provider": "yandex",
+  "ad_provider": "facebook",
+  "providers": {
+    "yandex": { "enabled": true },
+    "facebook": { "enabled": true }
+  },
+  "fallback_providers": [],
   "feature_controls": {
     "show_background_button": false,
-    "show_download_button": false
+    "show_download_button": false,
     "show_video_audio_settings": false
   },
   "placements": {
     "home_native": {
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_NATIVE_ID"
+      },
       "frequency": 8,
       "max_ads": 5
     },
     "search_native": {
       "enabled": true,
       "ad_unit_id": "demo-native-content-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_NATIVE_ID"
+      },
       "frequency": 10,
       "max_ads": 3
     },
     "detail_banner": {
       "enabled": true,
-      "ad_unit_id": "demo-banner-yandex"
+      "ad_unit_id": "demo-banner-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_BANNER_ID"
+      }
     },
     "bookmark_banner": {
       "enabled": true,
-      "ad_unit_id": "demo-banner-yandex"
+      "ad_unit_id": "demo-banner-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_BANNER_ID"
+      }
     },
     "rewarded_download": {
       "enabled": true,
       "ad_unit_id": "demo-rewarded-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_REWARDED_ID"
+      },
       "skip_allowed": true,
       "skip_delay_seconds": 5
     },
     "app_open": {
       "enabled": true,
       "ad_unit_id": "demo-interstitial-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID"
+      },
       "cooldown_seconds": 120,
       "show_on_cold_start": false
     },
     "interstitial_after_video_clicks": {
       "enabled": true,
       "ad_unit_id": "demo-interstitial-yandex",
+      "ad_unit_ids": {
+        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID"
+      },
       "click_threshold": 3,
       "cooldown_seconds": 300
     }
