@@ -2,7 +2,7 @@
   "schema_version": 1,
   "enabled": true,
   "kill_switch": false,
-  "provider": "yandex",
+  "provider": "admob",
   "cache_ttl_minutes": 360,
   "formats": {
     "app_open": {
