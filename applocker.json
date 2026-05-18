@@ -2,7 +2,7 @@
   "schema_version": 1,
   "enabled": true,
   "kill_switch": false,
-  "provider": "admob",
+  "provider": "yandex",
   "fallback_provider": "yandex",
   "cache_ttl_minutes": 360,
   "disable_for_premium": false,
@@ -14,7 +14,7 @@
       "min_app_opens_before_show": 3,
       "max_per_session": 1,
       "admob_unit_id": "ca-app-pub-3940256099942544/9257395921",
-      "yandex_unit_id": "R-M-xxxxxx-appopen"
+      "yandex_unit_id": "demo-appopenad-yandex"
     },
     "interstitial": {
       "enabled": true,
@@ -22,7 +22,7 @@
       "min_actions_between_ads": 3,
       "max_per_session": 2,
       "admob_unit_id": "ca-app-pub-3940256099942544/1033173712",
-      "yandex_unit_id": "R-M-xxxxxx-interstitial"
+      "yandex_unit_id": "demo-interstitial-yandex"
     },
     "banner": {
       "enabled": true,
