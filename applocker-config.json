@@ -1,0 +1,17 @@
+{
+  "ads_enabled": true,
+  "provider": "yandex",
+  "app_open": {
+    "enabled": true,
+    "cooldown_seconds": 60,
+    "max_per_session": 1,
+    "ad_unit_id": "demo-appopenad-yandex"
+  },
+  "interstitial": {
+    "enabled": true,
+    "cooldown_seconds": 60,
+    "min_actions_between_ads": 2,
+    "max_per_session": 2,
+    "ad_unit_id": "demo-interstitial-yandex"
+  }
+}

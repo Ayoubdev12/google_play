@@ -1,8 +1,0 @@
-{
-  "ads_enabled": true,
-  "provider": "yandex",
-  "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
-  "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
-  "admob_app_open_android": "ca-app-pub-3940256099942544/9257395921",
-  "admob_interstitial_android": "ca-app-pub-3940256099942544/1033173712"
-}
