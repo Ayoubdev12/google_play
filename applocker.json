@@ -7,8 +7,8 @@
   "formats": {
     "app_open": {
       "enabled": true,
-      "cooldown_seconds": 14400,
-      "min_background_seconds": 120,
+      "cooldown_seconds": 30,
+      "min_background_seconds": 5,
       "min_app_opens_before_show": 3,
       "max_per_session": 1,
       "admob_unit_id": "ca-app-pub-3940256099942544/9257395921",
@@ -16,7 +16,7 @@
     },
     "interstitial": {
       "enabled": true,
-      "cooldown_seconds": 180,
+      "cooldown_seconds": 15,
       "min_actions_between_ads": 3,
       "max_per_session": 2,
       "admob_unit_id": "ca-app-pub-3940256099942544/1033173712",
