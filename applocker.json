@@ -2,9 +2,12 @@
   "schema_version": 1,
   "enabled": true,
   "kill_switch": false,
+
   "provider": "admob",
-  "fallback_provider": "yandex"
+  "fallback_provider": "yandex",
+
   "cache_ttl_minutes": 360,
+
   "formats": {
     "app_open": {
       "enabled": true,
@@ -15,6 +18,7 @@
       "admob_unit_id": "ca-app-pub-3940256099942544/9257395921",
       "yandex_unit_id": "demo-appopenad-yandex"
     },
+
     "interstitial": {
       "enabled": true,
       "cooldown_seconds": 30,
@@ -23,17 +27,19 @@
       "admob_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "yandex_unit_id": "demo-interstitial-yandex"
     },
+
     "banner": {
       "enabled": true,
       "refresh_seconds": 60,
       "admob_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "yandex_unit_id": "demo-banner-yandex"
     },
+
     "native": {
       "enabled": true,
       "cooldown_seconds": 30,
       "admob_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "yandex_unit_id": "demo-native-app-yandex"
+      "yandex_unit_id": "demo-native-yandex"
     }
   }
 }
