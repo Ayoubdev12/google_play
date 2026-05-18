@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "kill_switch": false,
+  "provider": "admob",
+  "fallback_provider": "yandex",
+  "cache_ttl_minutes": 360,
+  "disable_for_premium": false,
+  "formats": {
+    "app_open": {
+      "enabled": true,
+      "cooldown_seconds": 14400,
+      "min_background_seconds": 120,
+      "min_app_opens_before_show": 3,
+      "max_per_session": 1,
+      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/app-open-unit",
+      "yandex_unit_id": "R-M-xxxxxx-appopen"
+    },
+    "interstitial": {
+      "enabled": true,
+      "cooldown_seconds": 180,
+      "min_actions_between_ads": 3,
+      "max_per_session": 2,
+      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/interstitial-unit",
+      "yandex_unit_id": "R-M-xxxxxx-interstitial"
+    },
+    "banner": {
+      "enabled": true,
+      "refresh_seconds": 60,
+      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/banner-unit",
+      "yandex_unit_id": "R-M-xxxxxx-banner"
+    },
+    "native": {
+      "enabled": true,
+      "cooldown_seconds": 90,
+      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/native-unit",
+      "yandex_unit_id": "R-M-xxxxxx-native"
+    }
+  }
+}
