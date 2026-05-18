@@ -5,7 +5,6 @@
   "provider": "admob",
   "fallback_provider": "yandex",
   "cache_ttl_minutes": 360,
-  "disable_for_premium": false,
   "formats": {
     "app_open": {
       "enabled": true,
