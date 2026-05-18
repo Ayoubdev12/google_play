@@ -2,8 +2,8 @@
   "schema_version": 1,
   "enabled": true,
   "kill_switch": false,
-  "provider": "yandex",
-  "fallback_provider": "yandex",
+  "provider": "admob",
+  "fallback_provider": "yandex"
   "cache_ttl_minutes": 360,
   "formats": {
     "app_open": {
