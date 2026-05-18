@@ -1,6 +1,6 @@
 {
   "ads_enabled": true,
-  "provider": "yandex",
+  "provider": "admob",
   "app_open": {
     "enabled": true,
     "cooldown_seconds": 3600,
