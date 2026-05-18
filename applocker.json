@@ -2,44 +2,37 @@
   "schema_version": 1,
   "enabled": true,
   "kill_switch": false,
-
-  "provider": "yandex",
-  "fallback_provider": "yandex",
-
+  "provider": "admob",
   "cache_ttl_minutes": 360,
-
   "formats": {
     "app_open": {
       "enabled": true,
-      "cooldown_seconds": 60,
-      "min_background_seconds": 30,
-      "min_app_opens_before_show": 1,
+      "cooldown_seconds": 14400,
+      "min_background_seconds": 120,
+      "min_app_opens_before_show": 3,
       "max_per_session": 1,
       "admob_unit_id": "ca-app-pub-3940256099942544/9257395921",
       "yandex_unit_id": "demo-appopenad-yandex"
     },
-
     "interstitial": {
       "enabled": true,
-      "cooldown_seconds": 30,
+      "cooldown_seconds": 180,
       "min_actions_between_ads": 3,
-      "max_per_session": 3,
+      "max_per_session": 2,
       "admob_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "yandex_unit_id": "demo-interstitial-yandex"
     },
-
     "banner": {
       "enabled": true,
       "refresh_seconds": 60,
       "admob_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "yandex_unit_id": "demo-banner-yandex"
     },
-
     "native": {
       "enabled": true,
-      "cooldown_seconds": 30,
+      "cooldown_seconds": 90,
       "admob_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "yandex_unit_id": "demo-native-yandex"
+      "yandex_unit_id": "demo-native-app-yandex"
     }
   }
 }
