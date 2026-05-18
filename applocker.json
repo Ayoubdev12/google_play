@@ -13,7 +13,7 @@
       "min_background_seconds": 120,
       "min_app_opens_before_show": 3,
       "max_per_session": 1,
-      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/app-open-unit",
+      "admob_unit_id": "ca-app-pub-3940256099942544/9257395921",
       "yandex_unit_id": "R-M-xxxxxx-appopen"
     },
     "interstitial": {
@@ -21,19 +21,19 @@
       "cooldown_seconds": 180,
       "min_actions_between_ads": 3,
       "max_per_session": 2,
-      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/interstitial-unit",
+      "admob_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "yandex_unit_id": "R-M-xxxxxx-interstitial"
     },
     "banner": {
       "enabled": true,
       "refresh_seconds": 60,
-      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/banner-unit",
+      "admob_unit_id": "ca-app-pub-3940256099942544/6300978111",
       "yandex_unit_id": "R-M-xxxxxx-banner"
     },
     "native": {
       "enabled": true,
       "cooldown_seconds": 90,
-      "admob_unit_id": "ca-app-pub-xxxxxxxxxxxxxxxx/native-unit",
+      "admob_unit_id": "ca-app-pub-3940256099942544/2247696110",
       "yandex_unit_id": "R-M-xxxxxx-native"
     }
   }
