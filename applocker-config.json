@@ -3,15 +3,21 @@
   "provider": "yandex",
   "app_open": {
     "enabled": true,
-    "cooldown_seconds": 60,
-    "max_per_session": 1,
-    "ad_unit_id": "demo-appopenad-yandex"
+    "cooldown_seconds": 3600,
+    "max_per_session": 1
   },
   "interstitial": {
     "enabled": true,
     "cooldown_seconds": 60,
-    "min_actions_between_ads": 2,
-    "max_per_session": 2,
-    "ad_unit_id": "demo-interstitial-yandex"
+    "min_actions_between_ads": 3,
+    "max_per_session": 2
+  },
+  "yandex": {
+    "app_open_ad_unit_id": "demo-appopenad-yandex",
+    "interstitial_ad_unit_id": "demo-interstitial-yandex"
+  },
+  "admob": {
+    "app_open_ad_unit_id": "demo-appopenad-yandex",
+    "interstitial_ad_unit_id": "demo-interstitial-yandex"
   }
 }
