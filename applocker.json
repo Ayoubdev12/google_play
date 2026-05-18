@@ -3,8 +3,8 @@
   "enabled": true,
   "kill_switch": false,
 
-  "provider": "yandex",
-  "fallback_provider": "admob",
+  "provider": "admob",
+  "fallback_provider": "yandex",
 
   "cache_ttl_minutes": 360,
 
