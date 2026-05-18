@@ -22,7 +22,7 @@
     "interstitial": {
       "enabled": true,
       "cooldown_seconds": 30,
-      "min_actions_between_ads": 1,
+      "min_actions_between_ads": 3,
       "max_per_session": 3,
       "admob_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "yandex_unit_id": "demo-interstitial-yandex"
