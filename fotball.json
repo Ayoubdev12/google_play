@@ -1,7 +1,7 @@
 {
   "ads_enabled": true,
   "ad_test_mode": true,
-  "provider": "admob",
+  "provider": "yandex",
   "admob_app_open_android": "ca-app-pub-3940256099942544/9257395921",
   "admob_app_open_ios": "ca-app-pub-3940256099942544/5575463023",
   "admob_interstitial_android": "ca-app-pub-3940256099942544/1033173712",
