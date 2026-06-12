@@ -1,6 +1,6 @@
 {
   "ads_enabled": true,
-  "ad_test_mode": false,
+  "ad_test_mode": true,
   "provider": "admob",
   "admob_app_open_android": "ca-app-pub-3940256099942544/9257395921",
   "admob_app_open_ios": "ca-app-pub-3940256099942544/5575463023",
@@ -10,7 +10,7 @@
   "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
   "Apikey": "1863d02c506cf37773ee58ebd0b72e47",
   "features": {
-    "maintenance_mode": true,
+    "maintenance_mode": false,
     "world_cup_hub_enabled": true
   }
 }
