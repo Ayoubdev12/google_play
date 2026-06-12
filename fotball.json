@@ -10,7 +10,7 @@
   "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
   "Apikey": "1863d02c506cf37773ee58ebd0b72e47",
   "features": {
-    "maintenance_mode": false,
+    "maintenance_mode": true,
     "world_cup_hub_enabled": true
   }
 }
