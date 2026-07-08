@@ -2,8 +2,8 @@
   "ads_enabled": true,
   "ad_test_mode": true,
 
-  "ad_provider": "facebook",
-  "backup_provider": "facebook",
+  "ad_provider": "yandex",
+  "backup_provider": "yandex",
 
   "providers": {
    "admob": {
