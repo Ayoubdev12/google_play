@@ -53,7 +53,7 @@
     "video_opens_for_interstitial": 1,
     "navigation_actions_for_interstitial": 1,
     "search_clicks_for_interstitial": 1,
-    "native_every_items": 6,
+    "native_every_items": 3,
     "banner_every_items": 8,
     "max_interstitial_per_session": 2,
     "max_app_open_per_session": 2
