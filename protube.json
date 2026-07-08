@@ -61,8 +61,8 @@
 
   "safety": {
     "disable_ads_on_player_screen": false,
-    "do_not_show_app_open_after_interstitial_seconds": 120,
-    "do_not_show_interstitial_after_app_open_seconds": 120,
+    "do_not_show_app_open_after_interstitial_seconds": 2,
+    "do_not_show_interstitial_after_app_open_seconds": 2,
     "minimum_seconds_after_app_start": 0,
     "minimum_seconds_between_any_fullscreen_ad": 0
   },
