@@ -1,0 +1,87 @@
+{
+  "ads_enabled": true,
+  "ad_test_mode": false,
+
+  "ad_provider": "yodo1",
+  "backup_provider": "yandex",
+
+  "providers": {
+    "yodo1": {
+      "enabled": true,
+      "android_app_key": "nfJMgDfNOS",
+      "banner_enabled": true,
+      "interstitial_enabled": true,
+      "app_open_enabled": true,
+      "native_enabled": false
+    },
+
+    "admob": {
+      "enabled": true,
+      "app_id": "ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx",
+      "banner_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "interstitial_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "native_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
+      "app_open_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx"
+    },
+
+    "yandex": {
+      "enabled": true,
+      "banner_id": "R-M-XXXXXXX-Y",
+      "interstitial_id": "R-M-XXXXXXX-Y",
+      "native_id": "R-M-XXXXXXX-Y",
+      "app_open_id": "R-M-XXXXXXX-Y"
+    },
+
+    "facebook": {
+      "enabled": true,
+      "banner_id": "YOUR_FACEBOOK_BANNER_PLACEMENT_ID",
+      "interstitial_id": "YOUR_FACEBOOK_INTERSTITIAL_PLACEMENT_ID",
+      "native_id": "YOUR_FACEBOOK_NATIVE_PLACEMENT_ID"
+    }
+  },
+
+  "placements": {
+    "home_banner_enabled": true,
+    "player_banner_enabled": true,
+    "watchlist_banner_enabled": true,
+
+    "home_native_enabled": true,
+    "search_native_enabled": true,
+    "favorites_native_enabled": true,
+    "library_native_enabled": true,
+
+    "app_open_on_launch": true,
+    "interstitial_on_video_open": true,
+    "interstitial_on_search_click": true,
+    "interstitial_on_navigation": true
+  },
+
+  "frequency": {
+    "app_open_cooldown_minutes": 30,
+    "interstitial_cooldown_seconds": 60,
+
+    "video_opens_for_interstitial": 3,
+    "navigation_actions_for_interstitial": 4,
+    "search_clicks_for_interstitial": 3,
+
+    "native_every_items": 6,
+    "banner_every_items": 8,
+
+    "max_interstitial_per_session": 5,
+    "max_app_open_per_session": 2
+  },
+
+  "safety": {
+    "disable_ads_on_player_screen": false,
+    "do_not_show_app_open_after_interstitial_seconds": 120,
+    "do_not_show_interstitial_after_app_open_seconds": 120,
+    "minimum_seconds_after_app_start": 5,
+    "minimum_seconds_between_any_fullscreen_ad": 90
+  },
+
+  "fallback": {
+    "use_backup_if_main_failed": true,
+    "main_load_timeout_seconds": 5,
+    "backup_load_timeout_seconds": 5
+  }
+}
