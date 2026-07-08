@@ -2,12 +2,12 @@
   "ads_enabled": true,
   "ad_test_mode": true,
 
-  "ad_provider": "yodo1",
-  "backup_provider": "yandex",
+  "ad_provider": "admob",
+  "backup_provider": "admob",
 
   "providers": {
     "yodo1": {
-      "enabled": true,
+      "enabled": false,
       "android_app_key": "nfJMgDfNOS",
       "banner_enabled": true,
       "interstitial_enabled": true,
@@ -19,13 +19,13 @@
       "enabled": true,
       "app_id": "ca-app-pub-5784311004955543~5975064171",
       "banner_id": "ca-app-pub-3940256099942544/2247696110",
-      "interstitial_id": "	ca-app-pub-3940256099942544/1033173712",
+      "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
       "native_id": "ca-app-pub-3940256099942544/2247696110",
       "app_open_id": "ca-app-pub-3940256099942544/9257395921"
     },
 
     "yandex": {
-      "enabled": true,
+      "enabled": false,
       "banner_id": "demo-banner-yandex",
       "interstitial_id": "demo-interstitial-yandex",
       "native_id": "demo-native-app-yandex",
@@ -33,7 +33,7 @@
     },
 
     "facebook": {
-      "enabled": true,
+      "enabled": false,
       "banner_id": "YOUR_FACEBOOK_BANNER_PLACEMENT_ID",
       "interstitial_id": "YOUR_FACEBOOK_INTERSTITIAL_PLACEMENT_ID",
       "native_id": "YOUR_FACEBOOK_NATIVE_PLACEMENT_ID"
@@ -67,7 +67,7 @@
     "native_every_items": 6,
     "banner_every_items": 8,
 
-    "max_interstitial_per_session": 5,
+    "max_interstitial_per_session": 2,
     "max_app_open_per_session": 2
   },
 
