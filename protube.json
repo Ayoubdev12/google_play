@@ -18,18 +18,18 @@
     "admob": {
       "enabled": true,
       "app_id": "ca-app-pub-5784311004955543~5975064171",
-      "banner_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
-      "interstitial_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
-      "native_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx",
-      "app_open_id": "ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx"
+      "banner_id": "ca-app-pub-3940256099942544/2247696110",
+      "interstitial_id": "	ca-app-pub-3940256099942544/1033173712",
+      "native_id": "ca-app-pub-3940256099942544/2247696110",
+      "app_open_id": "ca-app-pub-3940256099942544/9257395921"
     },
 
     "yandex": {
       "enabled": true,
-      "banner_id": "R-M-XXXXXXX-Y",
-      "interstitial_id": "R-M-XXXXXXX-Y",
-      "native_id": "R-M-XXXXXXX-Y",
-      "app_open_id": "R-M-XXXXXXX-Y"
+      "banner_id": "demo-banner-yandex",
+      "interstitial_id": "demo-interstitial-yandex",
+      "native_id": "demo-native-app-yandex",
+      "app_open_id": "demo-appopenad-yandex"
     },
 
     "facebook": {
