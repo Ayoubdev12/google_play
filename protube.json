@@ -23,10 +23,10 @@
     },
     "facebook": {
       "enabled": false,
-      "app_id": "XXXXXXXXXXXXXXXXXX",
-      "banner_id": "XXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXX",
-      "interstitial_id": "XXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXX",
-      "native_id": "XXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXX",
+      "app_id": "1339401414447261",
+      "banner_id": "1339401414447261_1339402547780481",
+      "interstitial_id": "1339401414447261_1339402677780468",
+      "native_id": "1339401414447261_1339402871113782",
       "app_open_id": ""
     }
   },
