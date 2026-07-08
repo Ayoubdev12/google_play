@@ -1,21 +1,12 @@
 {
   "ads_enabled": true,
-  "ad_test_mode": true,
+  "ad_test_mode": false,
 
   "ad_provider": "admob",
-  "backup_provider": "admob",
+  "backup_provider": "yandex",
 
   "providers": {
-    "yodo1": {
-      "enabled": true,
-      "android_app_key": "nfJMgDfNOS",
-      "banner_enabled": true,
-      "interstitial_enabled": true,
-      "app_open_enabled": true,
-      "native_enabled": false
-    },
-
-    "admob": {
+   "admob": {
       "enabled": true,
       "app_id": "ca-app-pub-5784311004955543~5975064171",
       "banner_id": "ca-app-pub-3940256099942544/2247696110",
@@ -23,7 +14,6 @@
       "native_id": "ca-app-pub-3940256099942544/2247696110",
       "app_open_id": "ca-app-pub-3940256099942544/9257395921"
     },
-
     "yandex": {
       "enabled": false,
       "banner_id": "demo-banner-yandex",
@@ -31,48 +21,44 @@
       "native_id": "demo-native-app-yandex",
       "app_open_id": "demo-appopenad-yandex"
     },
-
     "facebook": {
       "enabled": false,
-      "banner_id": "YOUR_FACEBOOK_BANNER_PLACEMENT_ID",
-      "interstitial_id": "YOUR_FACEBOOK_INTERSTITIAL_PLACEMENT_ID",
-      "native_id": "YOUR_FACEBOOK_NATIVE_PLACEMENT_ID"
+      "app_id": "XXXXXXXXXXXXXXXXXX",
+      "banner_id": "XXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXX",
+      "interstitial_id": "XXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXX",
+      "native_id": "XXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXX",
+      "app_open_id": ""
     }
   },
 
   "placements": {
     "home_banner_enabled": true,
-    "player_banner_enabled": true,
+    "player_banner_enabled": false,
     "watchlist_banner_enabled": true,
-
     "home_native_enabled": true,
     "search_native_enabled": true,
-    "favorites_native_enabled": true,
-    "library_native_enabled": true,
-
+    "favorites_native_enabled": false,
+    "library_native_enabled": false,
     "app_open_on_launch": true,
     "interstitial_on_video_open": true,
-    "interstitial_on_search_click": true,
-    "interstitial_on_navigation": true
+    "interstitial_on_search_click": false,
+    "interstitial_on_navigation": false
   },
 
   "frequency": {
     "app_open_cooldown_minutes": 30,
     "interstitial_cooldown_seconds": 60,
-
     "video_opens_for_interstitial": 3,
     "navigation_actions_for_interstitial": 4,
     "search_clicks_for_interstitial": 3,
-
     "native_every_items": 6,
     "banner_every_items": 8,
-
-    "max_interstitial_per_session": 2,
+    "max_interstitial_per_session": 5,
     "max_app_open_per_session": 2
   },
 
   "safety": {
-    "disable_ads_on_player_screen": false,
+    "disable_ads_on_player_screen": true,
     "do_not_show_app_open_after_interstitial_seconds": 120,
     "do_not_show_interstitial_after_app_open_seconds": 120,
     "minimum_seconds_after_app_start": 5,
