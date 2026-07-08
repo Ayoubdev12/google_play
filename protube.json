@@ -50,8 +50,8 @@
   "frequency": {
     "app_open_cooldown_minutes": 1,
     "interstitial_cooldown_seconds": 10,
-    "video_opens_for_interstitial": 2,
-    "navigation_actions_for_interstitial": 3,
+    "video_opens_for_interstitial": 1,
+    "navigation_actions_for_interstitial": 1,
     "search_clicks_for_interstitial": 1,
     "native_every_items": 6,
     "banner_every_items": 8,
