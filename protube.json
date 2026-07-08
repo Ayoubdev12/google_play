@@ -48,8 +48,8 @@
   },
 
   "frequency": {
-    "app_open_cooldown_minutes": 1,
-    "interstitial_cooldown_seconds": 10,
+    "app_open_cooldown_minutes": 0,
+    "interstitial_cooldown_seconds": 0,
     "video_opens_for_interstitial": 1,
     "navigation_actions_for_interstitial": 1,
     "search_clicks_for_interstitial": 1,
@@ -63,8 +63,8 @@
     "disable_ads_on_player_screen": false,
     "do_not_show_app_open_after_interstitial_seconds": 120,
     "do_not_show_interstitial_after_app_open_seconds": 120,
-    "minimum_seconds_after_app_start": 5,
-    "minimum_seconds_between_any_fullscreen_ad": 90
+    "minimum_seconds_after_app_start": 0,
+    "minimum_seconds_between_any_fullscreen_ad": 0
   },
 
   "fallback": {
