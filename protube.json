@@ -2,7 +2,7 @@
   "ads_enabled": true,
   "ad_test_mode": true,
 
-  "ad_provider": "yodo1",
+  "ad_provider": "admob",
   "backup_provider": "admob",
 
   "providers": {
