@@ -2,12 +2,12 @@
   "ads_enabled": true,
   "ad_test_mode": true,
 
-  "ad_provider": "admob",
+  "ad_provider": "yodo1",
   "backup_provider": "admob",
 
   "providers": {
     "yodo1": {
-      "enabled": false,
+      "enabled": true,
       "android_app_key": "nfJMgDfNOS",
       "banner_enabled": true,
       "interstitial_enabled": true,
