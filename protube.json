@@ -2,8 +2,8 @@
   "ads_enabled": true,
   "ad_test_mode": true,
 
-  "ad_provider": "yandex",
-  "backup_provider": "yandex",
+  "ad_provider": "facebook",
+  "backup_provider": "facebook",
 
   "providers": {
    "admob": {
@@ -22,11 +22,11 @@
       "app_open_id": "demo-appopenad-yandex"
     },
     "facebook": {
-      "enabled": false,
+      "enabled": true,
       "app_id": "1339401414447261",
-      "banner_id": "1339401414447261_1339402547780481",
-      "interstitial_id": "1339401414447261_1339402677780468",
-      "native_id": "1339401414447261_1339402871113782",
+      "banner_id": "IMG_16_9_APP_INSTALL#331339401414447261_1339402547780481",
+      "interstitial_id": "IMG_16_9_APP_INSTALL#1339401414447261_1339402677780468",
+      "native_id": "IMG_16_9_APP_INSTALL#1339401414447261_1339402871113782",
       "app_open_id": ""
     }
   },
