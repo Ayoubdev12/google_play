@@ -32,6 +32,8 @@
   },
 
   "placements": {
+    "video_list_native_enabled": true,
+    "video_details_banner_enabled": true,
     "home_banner_enabled": true,
     "player_banner_enabled": true,
     "watchlist_banner_enabled": true,
