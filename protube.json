@@ -2,7 +2,7 @@
   "ads_enabled": true,
   "ad_test_mode": true,
 
-  "ad_provider": "admob",
+  "ad_provider": "yandex",
   "backup_provider": "yandex",
 
   "providers": {
@@ -15,7 +15,7 @@
       "app_open_id": "ca-app-pub-3940256099942544/9257395921"
     },
     "yandex": {
-      "enabled": false,
+      "enabled": true,
       "banner_id": "demo-banner-yandex",
       "interstitial_id": "demo-interstitial-yandex",
       "native_id": "demo-native-app-yandex",
