@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "activeProvider": "admob",
   "fallbackProvider": "admob",
   "nativeProvider": "admob",
