@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "activeProvider": "yandex",
+  "fallbackProvider": "yandex",
+  "remoteConfigUrl": "",
+  "interstitialEnabled": true,
+  "appOpenEnabled": true,
+  "appOpenShowOnColdStart": true,
+  "appOpenInitialRetryDelayMillis": 1200,
+  "nativeEnabled": true,
+  "appOpenCooldownMillis": 120000,
+  "appOpenMinBackgroundMillis": 30000,
+  "admob": {
+    "interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "appOpen": "ca-app-pub-3940256099942544/9257395921",
+    "nativeHome": "ca-app-pub-3940256099942544/2247696110",
+    "nativeSettings": "ca-app-pub-3940256099942544/2247696110"
+  },
+  "yandex": {
+    "interstitial": "demo-interstitial-yandex",
+    "appOpen": "demo-appopenad-yandex",
+    "nativeHome": "demo-native-app-yandex",
+    "nativeSettings": "demo-native-app-yandex"
+  }
+}
