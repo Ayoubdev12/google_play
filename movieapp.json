@@ -1,0 +1,110 @@
+{
+  "ads": {
+    "enabled": true,
+
+    "providers": {
+      "banner": "admob",
+      "mrec": "admob",
+      "interstitial": "admob",
+      "app_open": "admob",
+      "reward": "none"
+    },
+
+    "placements": {
+      "banner": {
+        "enabled": true
+      },
+      "mrec": {
+        "enabled": true
+      },
+      "interstitial": {
+        "enabled": true
+      },
+      "app_open": {
+        "enabled": true
+      },
+      "reward": {
+        "enabled": false
+      }
+    },
+
+    "admob": {
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+
+      "banner": {
+        "adUnitId": "ca-app-pub-3940256099942544/6300978111"
+      },
+
+      "mrec": {
+        "adUnitId": "ca-app-pub-3940256099942544/6300978111"
+      },
+
+      "interstitial": {
+        "adUnitId": "ca-app-pub-3940256099942544/1033173712"
+      },
+
+      "app_open": {
+        "adUnitId": "ca-app-pub-3940256099942544/9257395921"
+      },
+
+      "reward": {
+        "adUnitId": "ca-app-pub-3940256099942544/5224354917"
+      }
+    },
+
+    "applovin": {
+      "sdkKey": "",
+      "banner": {
+        "adUnitId": ""
+      },
+      "mrec": {
+        "adUnitId": ""
+      },
+      "interstitial": {
+        "adUnitId": ""
+      },
+      "reward": {
+        "adUnitId": ""
+      }
+    },
+
+    "yandex": {
+      "banner": {
+        "adUnitId": "demo-banner-yandex"
+      },
+
+      "mrec": {
+        "adUnitId": "demo-mrec-yandex"
+      },
+
+      "interstitial": {
+        "adUnitId": "demo-interstitial-yandex"
+      },
+
+      "app_open": {
+        "adUnitId": "demo-appopenad-yandex"
+      },
+
+      "reward": {
+        "adUnitId": "demo-rewarded-yandex"
+      }
+    },
+
+    "unity": {
+      "gameId": "",
+      "testMode": false,
+
+      "banner": {
+        "adUnitId": ""
+      },
+
+      "mrec": {
+        "adUnitId": ""
+      },
+
+      "interstitial": {
+        "adUnitId": ""
+      }
+    }
+  }
+}
