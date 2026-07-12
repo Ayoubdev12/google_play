@@ -1,8 +1,10 @@
 {
   "enabled": true,
-  "activeProvider": "yandex",
+  "activeProvider": "admob",
   "fallbackProvider": "yandex",
-  "remoteConfigUrl": "",
+  "nativeProvider": "yandex",
+  "nativeFallbackProvider": "admob",
+  "remoteConfigUrl": "https://ayoubdev12.github.io/google_play/fakevideocall.json",
   "interstitialEnabled": true,
   "appOpenEnabled": true,
   "appOpenShowOnColdStart": true,
