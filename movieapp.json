@@ -3,10 +3,10 @@
     "enabled": true,
 
     "providers": {
-      "banner": "admob",
-      "mrec": "admob",
-      "interstitial": "admob",
-      "app_open": "admob",
+      "banner": "yandex",
+      "mrec": "yandex",
+      "interstitial": "yandex",
+      "app_open": "yandex",
       "reward": "none"
     },
 
