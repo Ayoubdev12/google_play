@@ -1,6 +1,6 @@
 {
   "ads": {
-    "enabled": false,
+    "enabled": true,
 
     "providers": {
       "banner": "yandex",
@@ -78,11 +78,11 @@
       },
 
       "interstitial": {
-        "adUnitId": "demo-interstitial-yandex"
+        "adUnitId": "R-M-19442279-1"
       },
 
       "app_open": {
-        "adUnitId": "demo-appopenad-yandex"
+        "adUnitId": "R-M-19442279-2"
       },
 
       "reward": {
