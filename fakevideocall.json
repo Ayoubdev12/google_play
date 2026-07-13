@@ -13,7 +13,7 @@
   "appOpenCooldownMillis": 120000,
   "appOpenMinBackgroundMillis": 30000,
   "admob": {
-    "interstitial": "ca-app-pub-3940256099942544/1033173712",
+    "interstitial": "ca-app-pub-5273946599432377/3746180601",
     "appOpen": "ca-app-pub-3940256099942544/9257395921",
     "nativeHome": "ca-app-pub-3940256099942544/2247696110",
     "nativeOnboarding": "ca-app-pub-3940256099942544/2247696110",
