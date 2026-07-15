@@ -11,7 +11,7 @@
       "reward": "none"
     },
     "update": {
-    "newAppStatus": "off",
+    "newAppStatus": "on",
     "appPackage": "com.your.new.package"
   },
     "placements": {
