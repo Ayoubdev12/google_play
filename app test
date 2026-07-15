@@ -1,89 +1,138 @@
 {
-  "ads_enabled": true,
-  "test_mode": true,
-  "ad_provider": "admob",
-  "providers": {
-    "yandex": { "enabled": true },
-    "facebook": { "enabled": true },
-    "admob": { "enabled": true }
-  },
-  "fallback_providers": [],
-  "feature_controls": {
-    "show_background_button": false,
-    "show_download_button": false,
-    "show_video_audio_settings": false
-  },
-  "placements": {
-    "home_native": {
-      "enabled": true,
-      "ad_unit_id": "demo-native-content-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_NATIVE_ID",
-        "admob": "ca-app-pub-3940256099942544/2247696110"
-      },
-      "frequency": 8,
-      "max_ads": 5
+  "ads": {
+    "enabled": true,
+
+    "providers": {
+      "banner": "yandex",
+      "mrec": "yandex",
+      "interstitial": "admob",
+      "app_open": "admob",
+      "reward": "none"
     },
-    "search_native": {
-      "enabled": true,
-      "ad_unit_id": "demo-native-content-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_NATIVE_ID",
-        "admob": "ca-app-pub-3940256099942544/2247696110"
+
+    "placements": {
+      "banner": {
+        "enabled": true
       },
-      "frequency": 10,
-      "max_ads": 3
-    },
-    "detail_banner": {
-      "enabled": true,
-      "ad_unit_id": "demo-banner-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_BANNER_ID",
-        "admob": "ca-app-pub-3940256099942544/6300978111"
+
+      "mrec": {
+        "enabled": true
+      },
+
+      "interstitial": {
+        "enabled": true,
+        "smartCooldownEnabled": true,
+        "cooldownMinSeconds": 60,
+        "cooldownMaxSeconds": 90,
+        "minActionsBeforeAd": 2,
+
+        "triggers": {
+          "open_details": true,
+          "play_now": true,
+          "select_provider": true,
+          "trailer": false,
+          "search_tab": false
+        }
+      },
+
+      "app_open": {
+        "enabled": true
+      },
+
+      "reward": {
+        "enabled": false
       }
     },
-    "bookmark_banner": {
-      "enabled": true,
-      "ad_unit_id": "demo-banner-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_BANNER_ID",
-        "admob": "ca-app-pub-3940256099942544/6300978111"
+
+    "admob": {
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+
+      "banner": {
+        "adUnitId": "ca-app-pub-3940256099942544/6300978111"
+      },
+
+      "mrec": {
+        "adUnitId": "ca-app-pub-3940256099942544/6300978111"
+      },
+
+      "interstitial": {
+        "adUnitId": "ca-app-pub-5273946599432377/2021220723"
+      },
+
+      "app_open": {
+        "adUnitId": "ca-app-pub-5273946599432377/7669253367"
+      },
+
+      "reward": {
+        "adUnitId": "ca-app-pub-3940256099942544/5224354917"
       }
     },
-    "rewarded_download": {
-      "enabled": true,
-      "ad_unit_id": "demo-rewarded-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_REWARDED_ID",
-        "admob": "ca-app-pub-3940256099942544/5224354917"
+
+    "applovin": {
+      "sdkKey": "",
+
+      "banner": {
+        "adUnitId": ""
       },
-      "skip_allowed": true,
-      "skip_delay_seconds": 5
+
+      "mrec": {
+        "adUnitId": ""
+      },
+
+      "interstitial": {
+        "adUnitId": ""
+      },
+
+      "app_open": {
+        "adUnitId": ""
+      },
+
+      "reward": {
+        "adUnitId": ""
+      }
     },
-    "app_open": {
-      "enabled": true,
-      "ad_unit_id": "demo-interstitial-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID",
-        "admob": "ca-app-pub-3940256099942544/1033173712"
+
+    "yandex": {
+      "banner": {
+        "adUnitId": "R-M-19442279-4"
       },
-      "cooldown_seconds": 120,
-      "show_on_cold_start": false
+
+      "mrec": {
+        "adUnitId": "demo-mrec-yandex"
+      },
+
+      "interstitial": {
+        "adUnitId": "R-M-19442279-1"
+      },
+
+      "app_open": {
+        "adUnitId": "R-M-19442279-2"
+      },
+
+      "reward": {
+        "adUnitId": "demo-rewarded-yandex"
+      }
     },
-    "interstitial_after_video_clicks": {
-      "enabled": true,
-      "ad_unit_id": "demo-interstitial-yandex",
-      "ad_unit_ids": {
-        "facebook": "YOUR_FACEBOOK_INTERSTITIAL_ID",
-        "admob": "ca-app-pub-3940256099942544/1033173712"
+
+    "unity": {
+      "gameId": "",
+      "testMode": false,
+
+      "banner": {
+        "adUnitId": ""
       },
-      "click_threshold": 3,
-      "cooldown_seconds": 300
+
+      "mrec": {
+        "adUnitId": ""
+      },
+
+      "interstitial": {
+        "adUnitId": ""
+      },
+
+      "reward": {
+        "adUnitId": ""
+      }
     }
-  },
-  "global_settings": {
-    "min_session_duration_seconds": 30,
-    "config_refresh_interval_minutes": 60,
-    "no_ads_during_playback": true
   }
 }
