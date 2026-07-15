@@ -17,7 +17,7 @@
     "placements": {
       "banner": { "enabled": true },
       "mrec": { "enabled": true },
-      
+      "native": { "enabled": true },
       "interstitial": {
         "enabled": true,
         "smartCooldownEnabled": true,
@@ -40,7 +40,7 @@
     "admob": {
       "appId": "ca-app-pub-3940256099942544~3347511713",
       "banner": { "adUnitId": "ca-app-pub-3940256099942544/6300978111" },
-      "mrec": { "adUnitId": "ca-app-pub-3940256099942544/6300978111" },
+     "native": { "adUnitId": "ca-app-pub-3940256099942544/2247696110" },
       "interstitial": { "adUnitId": "ca-app-pub-3940256099942544/1033173712" },
       "app_open": { "adUnitId": "ca-app-pub-3940256099942544/9257395921" },
       "reward": { "adUnitId": "ca-app-pub-3940256099942544/5224354917" }
@@ -57,7 +57,7 @@
     
     "yandex": {
       "banner": { "adUnitId": "R-M-19442279-4" },
-      "mrec": { "adUnitId": "demo-mrec-yandex" },
+       "native": { "adUnitId": "demo-native-app-yandex" },
       "interstitial": { "adUnitId": "R-M-19442279-1" },
       "app_open": { "adUnitId": "R-M-19442279-2" },
       "reward": { "adUnitId": "demo-rewarded-yandex" }
