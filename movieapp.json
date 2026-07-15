@@ -5,8 +5,8 @@
     "providers": {
       "banner": "yandex",
       "mrec": "yandex",
-      "interstitial": "yandex",
-      "app_open": "yandex",
+      "interstitial": "admob",
+      "app_open": "admob",
       "reward": "none"
     },
 
@@ -40,11 +40,11 @@
       },
 
       "interstitial": {
-        "adUnitId": "ca-app-pub-3940256099942544/1033173712"
+        "adUnitId": "ca-app-pub-5273946599432377/2021220723"
       },
 
       "app_open": {
-        "adUnitId": "ca-app-pub-3940256099942544/9257395921"
+        "adUnitId": "ca-app-pub-5273946599432377/7669253367"
       },
 
       "reward": {
