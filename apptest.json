@@ -10,7 +10,10 @@
       "app_open": "admob",
       "reward": "none"
     },
-    
+    "update": {
+    "newAppStatus": "off",
+    "appPackage": "com.your.new.package"
+  },
     "placements": {
       "banner": { "enabled": true },
       "mrec": { "enabled": true },
