@@ -4,10 +4,10 @@
     "features": { "playNowVisible": false },
     
     "providers": {
-      "banner": "admob",
-      "native": "admob",
-      "interstitial": "admob",
-      "app_open": "admob",
+      "banner": "yandex",
+      "native": "yandex",
+      "interstitial": "yandex",
+      "app_open": "yandex",
       "reward": "none"
     },
     "update": {
