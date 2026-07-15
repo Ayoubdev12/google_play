@@ -1,9 +1,8 @@
 {
   "ads": {
     "enabled": true,
-    "features": {
-      "playNowVisible": false
-    },
+    "features": { "playNowVisible": false },
+    
     "providers": {
       "banner": "admob",
       "mrec": "admob",
@@ -11,9 +10,11 @@
       "app_open": "admob",
       "reward": "none"
     },
+    
     "placements": {
       "banner": { "enabled": true },
       "mrec": { "enabled": true },
+      
       "interstitial": {
         "enabled": true,
         "smartCooldownEnabled": true,
@@ -28,9 +29,11 @@
           "search_tab": false
         }
       },
+      
       "app_open": { "enabled": true },
       "reward": { "enabled": false }
     },
+    
     "admob": {
       "appId": "ca-app-pub-3940256099942544~3347511713",
       "banner": { "adUnitId": "ca-app-pub-3940256099942544/6300978111" },
@@ -39,6 +42,7 @@
       "app_open": { "adUnitId": "ca-app-pub-3940256099942544/9257395921" },
       "reward": { "adUnitId": "ca-app-pub-3940256099942544/5224354917" }
     },
+    
     "applovin": {
       "sdkKey": "",
       "banner": { "adUnitId": "" },
@@ -47,6 +51,7 @@
       "app_open": { "adUnitId": "" },
       "reward": { "adUnitId": "" }
     },
+    
     "yandex": {
       "banner": { "adUnitId": "R-M-19442279-4" },
       "mrec": { "adUnitId": "demo-mrec-yandex" },
@@ -54,6 +59,7 @@
       "app_open": { "adUnitId": "R-M-19442279-2" },
       "reward": { "adUnitId": "demo-rewarded-yandex" }
     },
+    
     "unity": {
       "gameId": "",
       "testMode": false,
