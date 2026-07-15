@@ -5,7 +5,7 @@
     
     "providers": {
       "banner": "admob",
-      "mrec": "admob",
+      "native": "admob",
       "interstitial": "admob",
       "app_open": "admob",
       "reward": "none"
