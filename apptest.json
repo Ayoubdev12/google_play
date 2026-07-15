@@ -1,7 +1,9 @@
 {
   "ads": {
     "enabled": true,
-
+   "features": {
+   "playNowVisible": false
+    }
     "providers": {
       "banner": "yandex",
       "mrec": "yandex",
