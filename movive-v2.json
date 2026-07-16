@@ -7,7 +7,7 @@
       "banner": "none",
       "native": "admob",
       "interstitial": "admob",
-      "app_open": "admob",
+      "app_open": "yandex",
       "reward": "none"
     },
     "update": {
