@@ -1,13 +1,13 @@
 {
   "ads": {
-    "enabled": false,
-    "features": { "playNowVisible": false },
+    "enabled": true,
+    "features": { "playNowVisible": true },
     
     "providers": {
       "banner": "yandex",
       "native": "yandex",
-      "interstitial": "yandex",
-      "app_open": "yandex",
+      "interstitial": "admob",
+      "app_open": "admob",
       "reward": "none"
     },
     "update": {
@@ -21,15 +21,15 @@
       "interstitial": {
         "enabled": true,
         "smartCooldownEnabled": true,
-        "cooldownMinSeconds": 60,
-        "cooldownMaxSeconds": 90,
+        "cooldownMinSeconds": 20,
+        "cooldownMaxSeconds": 30,
         "minActionsBeforeAd": 2,
         "triggers": {
-          "open_details": true,
+          "open_details": false,
           "play_now": true,
-          "select_provider": true,
+          "select_provider": false,
           "trailer": false,
-          "search_tab": false
+          "search_tab": true
         }
       },
       
