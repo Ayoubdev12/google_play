@@ -4,7 +4,7 @@
     "features": { "playNowVisible": true },
     
     "providers": {
-      "banner": "none",
+      "banner": "yandex",
       "native": "admob",
       "interstitial": "admob",
       "app_open": "yandex",
