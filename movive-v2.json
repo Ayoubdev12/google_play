@@ -7,7 +7,7 @@
       "banner": "yandex",
       "native": "admob",
       "interstitial": "admob",
-      "app_open": "yandex",
+      "app_open": "admob",
       "reward": "none"
     },
     "update": {
@@ -15,7 +15,7 @@
     "appPackage": "com.your.new.package"
   },
     "placements": {
-      "banner": { "enabled": true },
+      "banner": { "enabled": false },
       "mrec": { "enabled": true },
       "native": { "enabled": true },
       "interstitial": {
