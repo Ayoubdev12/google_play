@@ -18,7 +18,7 @@
 
   "video_opens_for_ad": 2,
   "max_ads_per_session": 5,
-  "cooldown_seconds": 60,
+  "cooldown_seconds": 30,
 
   "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
   "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
