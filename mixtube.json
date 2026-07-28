@@ -1,0 +1,51 @@
+{
+  "ads_enabled": false,
+  "ad_test_mode": false,
+  "provider": "admob",
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+  "native_enabled": true,
+
+  "native_on_onboarding_enabled": true,
+  "native_on_language_screen_enabled": true,
+
+  "show_on_search_click": true,
+  "show_on_library_click": true,
+  "show_on_download_click": true,
+  "show_on_video_open": true,
+  "native_on_exit_popup_enabled": true,
+
+  "video_opens_for_ad": 2,
+  "max_ads_per_session": 5,
+  "cooldown_seconds": 60,
+
+  "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
+  "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
+  "yandex_native_ad_unit_id": "demo-native-app-yandex",
+
+  "admob_app_open_android": "ca-app-pub-3940256099942544/9257395921",
+  "admob_app_open_ios": "ca-app-pub-3940256099942544/5575463023",
+
+  "admob_interstitial_android": "ca-app-pub-3940256099942544/1033173712",
+  "admob_interstitial_ios": "ca-app-pub-3940256099942544/4411468910",
+
+  "admob_native_android": "ca-app-pub-3940256099942544/2247696110",
+  "admob_native_ios": "ca-app-pub-3940256099942544/3986624511",
+  
+  "rate_app_enabled": true,
+  "rate_trigger": "first_successful_playback",
+  "rate_delay_seconds": 3,
+  "rate_first_session_only": true,
+
+  "download_buttons_enabled": false,
+  "privacy_policy_url": "https://sites.google.com/view/ios-app-music/home"
+  "popup": {
+  "enabled": false,
+  "title": "New Update Available",
+  "message": "Please update the app to continue using the latest version.",
+  "image_url": "https://play-lh.googleusercontent.com/0_th7AgUAYckGXT0UTXmEGZluyc9VfVKZ2Q20CSRi9jTIo4TSRt7STtHKrcCVCyWL7Y0-HphvKaYv6x4OS6du2Y=w480-h960-rw",
+  "button_text": "Update Now",
+  "button_url": "https://play.google.com/store/apps/details?id=com.apptub.imagetopd.fast.app"
+}
+}
