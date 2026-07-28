@@ -11,12 +11,12 @@
   "native_on_language_screen_enabled": true,
 
   "show_on_search_click": true,
-  "show_on_library_click": true,
+  "show_on_library_click": false,
   "show_on_download_click": true,
-  "show_on_video_open": true,
+  "show_on_video_open": false,
   "native_on_exit_popup_enabled": true,
 
-  "video_opens_for_ad": 2,
+  "video_opens_for_ad": 3,
   "max_ads_per_session": 5,
   "cooldown_seconds": 30,
 
@@ -38,7 +38,7 @@
   "rate_delay_seconds": 3,
   "rate_first_session_only": true,
 
-  "download_buttons_enabled": false,
+  "download_buttons_enabled": true,
   "privacy_policy_url": "https://sites.google.com/view/ios-app-music/home"
   "popup": {
   "enabled": false,
