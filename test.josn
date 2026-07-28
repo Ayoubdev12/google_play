@@ -40,9 +40,9 @@
     "admob": {
       "appId": "ca-app-pub-3940256099942544~3347511713",
       "banner": { "adUnitId": "ca-app-pub-3940256099942544/6300978111" },
-      "native": { "adUnitId": "ca-app-pub-5273946599432377/2877107014" },
-      "interstitial": { "adUnitId": "ca-app-pub-5273946599432377/2021220723" },
-      "app_open": { "adUnitId": "ca-app-pub-5273946599432377/7669253367" },
+      "native": { "adUnitId": "ca-app-pub-3940256099942544/2247696110" },
+      "interstitial": { "adUnitId": "	ca-app-pub-3940256099942544/1033173712" },
+      "app_open": { "adUnitId": "ca-app-pub-3940256099942544/9257395921" },
       "reward": { "adUnitId": "ca-app-pub-3940256099942544/5224354917" }
     },
     
