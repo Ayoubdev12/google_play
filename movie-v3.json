@@ -1,0 +1,75 @@
+{
+  "ads": {
+    "enabled": true,
+    "features": { "playNowVisible": true },
+    
+    "providers": {
+      "banner": "none",
+      "native": "admob",
+      "interstitial": "admob",
+      "app_open": "admob",
+      "reward": "none"
+    },
+    "update": {
+    "newAppStatus": "off",
+    "appPackage": "com.your.new.package"
+  },
+    "placements": {
+      "banner": { "enabled": true },
+      "mrec": { "enabled": true },
+      "native": { "enabled": true },
+      "interstitial": {
+        "enabled": true,
+        "smartCooldownEnabled": true,
+        "cooldownMinSeconds": 20,
+        "cooldownMaxSeconds": 30,
+        "minActionsBeforeAd": 2,
+        "triggers": {
+          "open_details": false,
+          "play_now": true,
+          "select_provider": false,
+          "trailer": false,
+          "search_tab": true
+        }
+      },
+      
+      "app_open": { "enabled": true },
+      "reward": { "enabled": false }
+    },
+    
+    "admob": {
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+      "banner": { "adUnitId": "ca-app-pub-3940256099942544/6300978111" },
+      "native": { "adUnitId": "ca-app-pub-5273946599432377/2877107014" },
+      "interstitial": { "adUnitId": "ca-app-pub-5273946599432377/2021220723" },
+      "app_open": { "adUnitId": "ca-app-pub-5273946599432377/7669253367" },
+      "reward": { "adUnitId": "ca-app-pub-3940256099942544/5224354917" }
+    },
+    
+    "applovin": {
+      "sdkKey": "",
+      "banner": { "adUnitId": "" },
+      "mrec": { "adUnitId": "" },
+      "interstitial": { "adUnitId": "" },
+      "app_open": { "adUnitId": "" },
+      "reward": { "adUnitId": "" }
+    },
+    
+    "yandex": {
+      "banner": { "adUnitId": "R-M-19442279-4" },
+       "native": { "adUnitId": "R-M-19442279-5" },
+      "interstitial": { "adUnitId": "demo-interstitial-yandex" },
+      "app_open": { "adUnitId": "R-M-19442279-2" },
+      "reward": { "adUnitId": "demo-rewarded-yandex" }
+    },
+    
+    "unity": {
+      "gameId": "",
+      "testMode": false,
+      "banner": { "adUnitId": "" },
+      "mrec": { "adUnitId": "" },
+      "interstitial": { "adUnitId": "" },
+      "reward": { "adUnitId": "" }
+    }
+  }
+}
