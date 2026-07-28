@@ -1,5 +1,5 @@
 {
-  "ads_enabled": false,
+  "ads_enabled": true,
   "ad_test_mode": false,
   "provider": "admob",
 
@@ -18,20 +18,20 @@
 
   "video_opens_for_ad": 2,
   "max_ads_per_session": 5,
-  "cooldown_seconds": 60,
+  "cooldown_seconds": 30,
 
   "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
   "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
   "yandex_native_ad_unit_id": "demo-native-app-yandex",
 
-  "admob_app_open_android": "ca-app-pub-3940256099942544/9257395921",
-  "admob_app_open_ios": "ca-app-pub-3940256099942544/5575463023",
+  "admob_app_open_android": "ca-app-pub-5273946599432377/2457333440",
+  "admob_app_open_ios": "ca-app-pub-5273946599432377/2457333440",
 
-  "admob_interstitial_android": "ca-app-pub-3940256099942544/1033173712",
-  "admob_interstitial_ios": "ca-app-pub-3940256099942544/4411468910",
+  "admob_interstitial_android": "ca-app-pub-5273946599432377/5986726361",
+  "admob_interstitial_ios": "ca-app-pub-5273946599432377/5986726361",
 
-  "admob_native_android": "ca-app-pub-3940256099942544/2247696110",
-  "admob_native_ios": "ca-app-pub-3940256099942544/3986624511",
+  "admob_native_android": "ca-app-pub-5273946599432377/5006061428",
+  "admob_native_ios": "ca-app-pub-5273946599432377/5006061428",
   
   "rate_app_enabled": true,
   "rate_trigger": "first_successful_playback",
