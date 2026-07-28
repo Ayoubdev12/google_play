@@ -15,7 +15,7 @@
     "appPackage": "com.your.new.package"
   },
     "placements": {
-      "banner": { "enabled": false },
+      "banner": { "enabled": true },
       "mrec": { "enabled": true },
       "native": { "enabled": true },
       "interstitial": {
