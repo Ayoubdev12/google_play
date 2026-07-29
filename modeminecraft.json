@@ -20,5 +20,7 @@
   "show_on_download": true,
   "show_on_how_to_use": true,
   "show_on_open_in_minecraft": true,
-  "show_on_navigation_switch": true
+  "show_on_navigation_switch": true,
+  "show_on_onboarding_skip": true,
+"show_on_onboarding_get_started": true
 }
