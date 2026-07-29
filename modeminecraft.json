@@ -1,0 +1,24 @@
+{
+  "ads_enabled": true,
+  "ad_provider": "unity",
+  "ad_test_mode": true,
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+
+  "unity": {
+    "game_id_android": "6148502",
+    "interstitial_placement_id": "Interstitial_Android",
+    "app_open_placement_id": "AppOpen_Android"
+  },
+
+  "yandex": {
+    "interstitial_ad_unit_id": "YOUR_YANDEX_INTERSTITIAL_ID",
+    "app_open_ad_unit_id": "YOUR_YANDEX_APP_OPEN_ID"
+  },
+
+  "show_on_download": true,
+  "show_on_how_to_use": true,
+  "show_on_open_in_minecraft": true,
+  "show_on_navigation_switch": true
+}
