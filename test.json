@@ -16,7 +16,7 @@
   "show_on_video_open": true,
   "native_on_exit_popup_enabled": true,
   "music_home_native_enabled": true,
-  "music_home_native_every": 3,
+  "music_home_native_every": 2,
 
   "video_opens_for_ad": 2,
   "max_ads_per_session": 5,
