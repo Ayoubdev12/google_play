@@ -1,6 +1,6 @@
 {
   "ads_enabled": true,
-  "ad_provider": "unity",
+  "ad_provider": "yandex",
   "ad_test_mode": false,
 
   "app_open_enabled": true,
@@ -13,8 +13,8 @@
   },
 
   "yandex": {
-    "interstitial_ad_unit_id": "demo-interstitial-yandex",
-    "app_open_ad_unit_id": "demo-appopenad-yandex"
+    "interstitial_ad_unit_id": "R-M-19419825-1",
+    "app_open_ad_unit_id": "R-M-19419825-2"
   },
 
   "show_on_download": true,
