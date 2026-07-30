@@ -1,6 +1,6 @@
 {
   "ads_enabled": true,
-  "ad_test_mode": false,
+  "ad_test_mode": true,
   "provider": "admob",
 
   "app_open_enabled": true,
@@ -30,7 +30,7 @@
   "admob_interstitial_android": "ca-app-pub-5273946599432377/5986726361",
   "admob_interstitial_ios": "ca-app-pub-5273946599432377/5986726361",
 
-  "admob_native_android": "ca-app-pub-5273946599432377/5006061428",
+  "admob_native_android": "ca-app-pub-3940256099942544/2247696110",
   "admob_native_ios": "ca-app-pub-5273946599432377/5006061428",
   
   "rate_app_enabled": true,
