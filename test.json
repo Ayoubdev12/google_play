@@ -16,9 +16,9 @@
   "native_on_language_screen_enabled": true,
   "native_on_exit_popup_enabled": true,
   "music_home_native_enabled": true,
-  "music_home_native_every": 6,
+  "music_home_native_every": 3,
   "search_native_enabled": true,
-  "search_native_every": 6,
+  "search_native_every": 3,
 
   "show_on_search_click": true,
   "show_on_library_click": true,
