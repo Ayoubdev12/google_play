@@ -1,6 +1,6 @@
 {
   "ads_enabled": true,
-  "ad_provider": "yandex",
+  "ad_provider": "unity",
   "ad_test_mode": false,
 
   "app_open_enabled": true,
