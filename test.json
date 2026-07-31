@@ -25,7 +25,7 @@
   "show_on_download_click": true,
   "show_on_video_open": true,
 
-  "cooldown_seconds": 60,
+  "cooldown_seconds": 1,
   "max_ads_per_session": 5,
   "video_opens_for_ad": 2,
 
