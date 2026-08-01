@@ -21,9 +21,9 @@
   
   "native_on_exit_popup_enabled": true,
   "music_home_native_enabled": true,
-  "music_home_native_every": 2,
+  "music_home_native_every": 4,
   "search_native_enabled": true, 
-  "search_native_every": 3,
+  "search_native_every": 5,
 
   "video_opens_for_ad": 2,
   "max_ads_per_session": 5,
