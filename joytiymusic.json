@@ -3,7 +3,7 @@
   "ad_test_mode": false,
   
   "provider": "admob",
-  "app_open_provider": "admob",
+  "app_open_provider": "yandex",
   "interstitial_provider": "admob",
   "native_provider": "admob",
 
