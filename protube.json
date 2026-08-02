@@ -7,7 +7,7 @@
 
   "providers": {
     "admob": {
-      "enabled": true,
+      "enabled": false,
       "app_id": "ca-app-pub-5784311004955543~5975064171",
       "banner_id": "YOUR_REAL_ADMOB_BANNER_ID",
       "interstitial_id": "YOUR_REAL_ADMOB_INTERSTITIAL_ID",
@@ -22,7 +22,7 @@
       "banner_id": "R-M-19689268-4"
     },
     "facebook": {
-      "enabled": true,
+      "enabled": false,
       "app_id": "1339401414447261",
       "banner_id": "1339401414447261_1339402547780481",
       "interstitial_id": "1339401414447261_1339402677780468",
