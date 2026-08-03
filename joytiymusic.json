@@ -2,10 +2,10 @@
   "ads_enabled": true,
   "ad_test_mode": false,
   
-  "provider": "admob",
+  "provider": "yandex",
   "app_open_provider": "yandex",
-  "interstitial_provider": "admob",
-  "native_provider": "admob",
+  "interstitial_provider": "yandex",
+  "native_provider": "yandex",
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
