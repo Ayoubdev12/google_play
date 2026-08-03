@@ -1,0 +1,62 @@
+{
+  "ads_enabled": false,
+  "ad_test_mode": false,
+  "download_buttons_enabled": false,
+
+  "ad_provider": "meta",
+  "app_open_provider": "yandex",
+  "interstitial_provider": "meta",
+  "native_provider": "meta",
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+  "native_enabled": true,
+
+  "native_on_onboarding_enabled": true,
+  "native_on_language_screen_enabled": true,
+  "native_on_exit_popup_enabled": true,
+  "music_home_native_enabled": true,
+  "music_home_native_every": 3,
+  "search_native_enabled": true,
+  "search_native_every": 3,
+
+  "show_on_search_click": true,
+  "show_on_library_click": true,
+  "show_on_download_click": true,
+  "show_on_video_open": true,
+
+  "cooldown_seconds": 1,
+  "max_ads_per_session": 5,
+  "video_opens_for_ad": 2,
+
+  "admob_app_open_android": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+  "admob_app_open_ios": "",
+  "admob_interstitial_android": "",
+  "admob_interstitial_ios": "",
+  "admob_native_android": "",
+  "admob_native_ios": "",
+
+  "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
+  "yandex_interstitial_ad_unit_id": "",
+  "yandex_native_ad_unit_id": "",
+
+  "meta_interstitial_android": "IMG_16_9_APP_INSTALL#1339401414447261_1339402677780468",
+  "meta_native_android": "IMG_16_9_APP_INSTALL#1339401414447261_1339402871113782",
+
+  "privacy_policy_url": "https://sites.google.com/view/playmate-tube/home",
+
+  "rate_app_enabled": true,
+  "rate_trigger": "first_successful_playback",
+  "rate_delay_seconds": 3,
+  "rate_first_session_only": true,
+  "rate_app_ios_store_id": "",
+
+  "popup": {
+    "enabled": false,
+    "title": "New Update Available",
+    "message": "Please update the app to continue using the latest version.",
+    "image_url": "",
+    "button_text": "Update Now",
+    "button_url": ""
+  }
+}
