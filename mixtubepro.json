@@ -1,12 +1,12 @@
 {
-  "ads_enabled": false,
-  "ad_test_mode": false,
+  "ads_enabled": true,
+  "ad_test_mode": true,
   "download_buttons_enabled": false,
 
-  "ad_provider": "meta",
-  "app_open_provider": "yandex",
-  "interstitial_provider": "meta",
-  "native_provider": "meta",
+  "ad_provider": "applovin",
+  "app_open_provider": "applovin",
+  "interstitial_provider": "applovin",
+  "native_provider": "yandex",
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
@@ -42,7 +42,15 @@
 
   "meta_interstitial_android": "IMG_16_9_APP_INSTALL#1339401414447261_1339402677780468",
   "meta_native_android": "IMG_16_9_APP_INSTALL#1339401414447261_1339402871113782",
+  
+ "applovin_sdk_key": "zuHPLc4JzAZVcvX-Oz1xUr1LID7Et3MpxIrI0TozMKtyiaJM4xlaIcml1TD0emF1WVUuiC74vmE1ioRavlPfzq",
+  
+  "applovin_app_open_android": "YOUR_ANDROID_APP_OPEN_AD_UNIT_ID",
+  "applovin_app_open_ios": "YOUR_IOS_APP_OPEN_AD_UNIT_ID",
 
+  "applovin_interstitial_android": "b342292673c0a968",
+  "applovin_interstitial_ios": "YOUR_IOS_INTERSTITIAL_AD_UNIT_ID",
+  
   "privacy_policy_url": "https://sites.google.com/view/playmate-tube/home",
 
   "rate_app_enabled": true,
