@@ -39,8 +39,8 @@
   "admob_interstitial_android": "ca-app-pub-5273946599432377/6289427351",
   "admob_interstitial_ios": "ca-app-pub-5273946599432377/6289427351",
 
-  "admob_native_android": "ca-app-pub-5273946599432377/1284512688",
-  "admob_native_ios": "ca-app-pub-5273946599432377/1284512688",
+  "admob_native_android": "000000",
+  "admob_native_ios": "000000",
   
   "rate_app_enabled": true,
   "rate_trigger": "first_successful_playback",
