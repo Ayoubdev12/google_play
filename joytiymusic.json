@@ -9,7 +9,7 @@
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
-  "native_enabled": true,
+  "native_enabled": false,
 
   "native_on_onboarding_enabled": true,
   "native_on_language_screen_enabled": true,
