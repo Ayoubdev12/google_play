@@ -1,6 +1,6 @@
 {
   "ads_enabled": false,
-  "ad_test_mode": fasle,
+  "ad_test_mode": false,
   "download_buttons_enabled": false,
 
   "ad_provider": "applovin",
