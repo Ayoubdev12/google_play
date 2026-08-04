@@ -1,7 +1,7 @@
 {
   "ads_enabled": true,
   "ad_test_mode": false,
-  "provider": "admob",
+  "provider": "yabdex",
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
@@ -20,8 +20,8 @@
   "max_ads_per_session": 5,
   "cooldown_seconds": 30,
 
-  "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
-  "yandex_interstitial_ad_unit_id": "demo-interstitial-yandex",
+  "yandex_app_open_ad_unit_id": "R-M-19438561-3",
+  "yandex_interstitial_ad_unit_id": "R-M-19438561-2",
   "yandex_native_ad_unit_id": "demo-native-app-yandex",
 
   "admob_app_open_android": "ca-app-pub-5273946599432377/2457333440",
