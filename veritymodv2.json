@@ -1,0 +1,31 @@
+{
+  "ads_enabled": true,
+  "ad_provider": "ironsource",
+  "ad_test_mode": true,
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+
+  "ironsource": {
+  "app_key": " 27763d845",
+  "interstitial_ad_unit_id": "4r3qkfr1m0zvijnq",
+  "interstitial_placement_name": "inter"
+}, 
+  "unity": {
+    "game_id_android": "6148502",
+    "interstitial_placement_id": "Interstitial_Android",
+    "app_open_placement_id": "AppOpen_Android"
+  },
+
+  "yandex": {
+    "interstitial_ad_unit_id": "R-M-19419825-1",
+    "app_open_ad_unit_id": "R-M-19419825-2"
+  },
+
+  "show_on_download": true,
+  "show_on_how_to_use": true,
+  "show_on_open_in_minecraft": true,
+  "show_on_navigation_switch": true,
+  "show_on_onboarding_skip": true,
+"show_on_onboarding_get_started": true
+}
