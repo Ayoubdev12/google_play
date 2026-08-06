@@ -6,7 +6,7 @@
   "ad_provider": "yandex",
   "app_open_provider": "yandex",
   "interstitial_provider": "yandex",
-  "native_provider": "of",
+  "native_provider": "none",
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
