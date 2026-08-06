@@ -3,9 +3,9 @@
   "ad_test_mode": false,
   "download_buttons_enabled": false,
 
-  "ad_provider": "applovin",
-  "app_open_provider": "applovin",
-  "interstitial_provider": "applovin",
+  "ad_provider": "yandex",
+  "app_open_provider": "yandex",
+  "interstitial_provider": "yandex",
   "native_provider": "none",
 
   "app_open_enabled": true,
@@ -36,8 +36,8 @@
   "admob_native_android": "",
   "admob_native_ios": "",
 
-  "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
-  "yandex_interstitial_ad_unit_id": "",
+  "yandex_app_open_ad_unit_id": "R-M-19712944-2",
+  "yandex_interstitial_ad_unit_id": "R-M-19712944-1",
   "yandex_native_ad_unit_id": "",
 
   "meta_interstitial_android": "IMG_16_9_APP_INSTALL#1339401414447261_1339402677780468",
