@@ -55,7 +55,7 @@
 
   "rate_app_enabled": true,
   "rate_trigger": "first_successful_playback",
-  "rate_delay_seconds": 3,
+  "rate_delay_seconds": 4,
   "rate_first_session_only": true,
   "rate_app_ios_store_id": "",
 
