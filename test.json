@@ -50,7 +50,7 @@
       "sdkKey": "zuHPLc4JzAZVcvX-Oz1xUr1LID7Et3MpxIrI0TozMKtyiaJM4xlaIcml1TD0emF1WVUuiC74vmE1ioRavlPfzq",
       "banner": { "adUnitId": "" },
       "mrec": { "adUnitId": "" },
-      "interstitial": { "813e453cbc694968": "" },
+      "interstitial": { "adUnitId": "813e453cbc694968" },
       "app_open": { "adUnitId": "" },
       "reward": { "adUnitId": "" }
     },
