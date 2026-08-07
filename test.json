@@ -6,8 +6,8 @@
     "providers": {
       "banner": "none",
       "native": "admob",
-      "interstitial": "admob",
-      "app_open": "admob",
+      "interstitial": "applovin",
+      "app_open": "yandex",
       "reward": "none"
     },
     "update": {
@@ -47,10 +47,10 @@
     },
     
     "applovin": {
-      "sdkKey": "",
+      "sdkKey": "zuHPLc4JzAZVcvX-Oz1xUr1LID7Et3MpxIrI0TozMKtyiaJM4xlaIcml1TD0emF1WVUuiC74vmE1ioRavlPfzq",
       "banner": { "adUnitId": "" },
       "mrec": { "adUnitId": "" },
-      "interstitial": { "adUnitId": "" },
+      "interstitial": { "813e453cbc694968": "" },
       "app_open": { "adUnitId": "" },
       "reward": { "adUnitId": "" }
     },
@@ -59,7 +59,7 @@
       "banner": { "adUnitId": "R-M-19442279-4" },
        "native": { "adUnitId": "R-M-19442279-5" },
       "interstitial": { "adUnitId": "demo-interstitial-yandex" },
-      "app_open": { "adUnitId": "R-M-19442279-2" },
+      "app_open": { "adUnitId": "demo-appopenad-yandex" },
       "reward": { "adUnitId": "demo-rewarded-yandex" }
     },
     
