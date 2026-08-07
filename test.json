@@ -4,7 +4,7 @@
     "features": { "playNowVisible": true },
     
     "providers": {
-      "banner": "none",
+      "banner": "admob",
       "native": "admob",
       "interstitial": "applovin",
       "app_open": "yandex",
@@ -40,7 +40,7 @@
     "admob": {
       "appId": "ca-app-pub-3940256099942544~3347511713",
       "banner": { "adUnitId": "ca-app-pub-3940256099942544/6300978111" },
-      "native": { "adUnitId": "ca-app-pub-5273946599432377/2877107014" },
+      "native": { "adUnitId": "ca-app-pub-3940256099942544/2247696110" },
       "interstitial": { "adUnitId": "ca-app-pub-5273946599432377/2021220723" },
       "app_open": { "adUnitId": "ca-app-pub-5273946599432377/7669253367" },
       "reward": { "adUnitId": "ca-app-pub-3940256099942544/5224354917" }
