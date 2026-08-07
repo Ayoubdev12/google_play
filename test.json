@@ -4,10 +4,10 @@
     "features": { "playNowVisible": true },
     
     "providers": {
-      "banner": "admob",
-      "native": "admob",
-      "interstitial": "applovin",
-      "app_open": "yandex",
+      "banner": "ironsource",
+      "native": "ironsource",
+      "interstitial": "ironsource",
+      "app_open": "ironsource",
       "reward": "none"
     },
     "update": {
@@ -61,6 +61,15 @@
       "interstitial": { "adUnitId": "demo-interstitial-yandex" },
       "app_open": { "adUnitId": "demo-appopenad-yandex" },
       "reward": { "adUnitId": "demo-rewarded-yandex" }
+    },
+    "ironsource": {
+      "appKey": "",
+      "banner": {"adUnitId": "" },
+      "mrec": {"adUnitId": ""},
+      "native": { "adUnitId": "" },
+      "interstitial": { "adUnitId": ""},
+      "app_open": { "adUnitId": ""},
+      "reward": { "adUnitId": ""}
     },
     
     "unity": {
