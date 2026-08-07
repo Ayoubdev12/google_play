@@ -63,11 +63,11 @@
       "reward": { "adUnitId": "demo-rewarded-yandex" }
     },
     "ironsource": {
-      "appKey": "",
+      "appKey": "27763d845",
       "banner": {"adUnitId": "" },
       "mrec": {"adUnitId": ""},
       "native": { "adUnitId": "" },
-      "interstitial": { "adUnitId": ""},
+      "interstitial": { "adUnitId": "4r3qkfr1m0zvijnq"},
       "app_open": { "adUnitId": ""},
       "reward": { "adUnitId": ""}
     },
