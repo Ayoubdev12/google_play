@@ -25,7 +25,7 @@
         "cooldownMaxSeconds": 30,
         "minActionsBeforeAd": 2,
         "triggers": {
-          "open_details": false,
+          "open_details": true,
           "play_now": true,
           "select_provider": false,
           "trailer": false,
