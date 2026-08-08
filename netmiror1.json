@@ -4,10 +4,10 @@
     "features": { "playNowVisible": false },
     
     "providers": {
-      "banner": "ironsource",
-      "native": "ironsource",
-      "interstitial": "ironsource",
-      "app_open": "ironsource",
+      "banner": "yandex",
+      "native": "yandex",
+      "interstitial": "yandex",
+      "app_open": "yandex",
       "reward": "none"
     },
     "update": {
@@ -58,8 +58,8 @@
     "yandex": {
       "banner": { "adUnitId": "R-M-19442279-4" },
        "native": { "adUnitId": "R-M-19442279-5" },
-      "interstitial": { "adUnitId": "demo-interstitial-yandex" },
-      "app_open": { "adUnitId": "demo-appopenad-yandex" },
+      "interstitial": { "adUnitId": "R-M-19729546-1" },
+      "app_open": { "adUnitId": "R-M-19729546-2" },
       "reward": { "adUnitId": "demo-rewarded-yandex" }
     },
     "ironsource": {
