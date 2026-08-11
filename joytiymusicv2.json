@@ -8,7 +8,7 @@
   "interstitial_provider": "applovin",
   "native_provider": "admob",
 
-  "app_open_enabled": false,
+  "app_open_enabled": true,
   "interstitial_enabled": true,
   "native_enabled": false,
 
