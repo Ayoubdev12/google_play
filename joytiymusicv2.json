@@ -59,6 +59,11 @@
   "rate_app_ios_store_id": "",
 
   "popup": {
-    "enabled": false
+  "enabled": false
+  "title": "New Update Available",
+  "message": "Please update the app to continue using the latest version.",
+  "image_url": "https://play-lh.googleusercontent.com/HCHAWhL0_Ofsj-p3jvE_gFO-jhuJnxZE7Sqsyf1cYsIu2KSRfCAWOxMn7bRw-RbEf0FpNNLf6-piGa-femUH=w480-h960-rw",
+  "button_text": "Update Now",
+  "button_url": "https://play.google.com/store/apps/details?id=com.onlinemusictubidy.tubestreamappmusic"
   }
 }
