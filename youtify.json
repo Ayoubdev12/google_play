@@ -1,0 +1,69 @@
+{
+  "ads_enabled": false,
+  "ad_test_mode": false,
+  "download_buttons_enabled": false,
+
+  "ad_provider": "applovin",
+  "app_open_provider": "applovin",
+  "interstitial_provider": "applovin",
+  "native_provider": "admob",
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+  "native_enabled": false,
+
+  "native_on_onboarding_enabled": false,
+  "native_on_language_screen_enabled": false,
+  "native_on_exit_popup_enabled": false,
+  "music_home_native_enabled": false,
+  "music_home_native_every": 6,
+  "search_native_enabled": false,
+  "search_native_every": 6,
+
+  "show_on_search_click": true,
+  "show_on_library_click": true,
+  "show_on_download_click": true,
+  "show_on_video_open": true,
+
+  "cooldown_seconds": 10,
+  "max_ads_per_session": 5,
+  "video_opens_for_ad": 2,
+
+  "applovin_sdk_key": "zuHPLc4JzAZVcvX-Oz1xUr1LID7Et3MpxIrI0TozMKtyiaJM4xlaIcml1TD0emF1WVUuiC74vmE1ioRavlPfzq",
+  "applovin_app_open_android": "813e453cbc694968",
+  "applovin_app_open_ios": "",
+  "applovin_interstitial_android": "8ac2549ba33ba101",
+  "applovin_interstitial_ios": "",
+  "applovin_test_device_advertising_ids": ["1b553cf4-55a7-4968-a37b-67bc56641753"],
+
+  "admob_app_open_android": "",
+  "admob_app_open_ios": "",
+  "admob_interstitial_android": "",
+  "admob_interstitial_ios": "",
+  "admob_native_android": "",
+  "admob_native_ios": "",
+
+  "yandex_app_open_ad_unit_id": "",
+  "yandex_interstitial_ad_unit_id": "",
+  "yandex_native_ad_unit_id": "",
+
+  "meta_interstitial_android": "",
+  "meta_native_android": "",
+
+  "privacy_policy_url": "https://sites.google.com/view/playmate-tube/home",
+
+  "rate_app_enabled": true,
+  "rate_trigger": "first_successful_playback",
+  "rate_delay_seconds": 3,
+  "rate_first_session_only": true,
+  "rate_app_ios_store_id": "",
+
+  "popup": {
+    "enabled": false,
+    "title": "New Update Available",
+    "message": "Please update the app to continue using the latest version.",
+    "image_url": "https://play-lh.googleusercontent.com/HCHAWhL0_Ofsj-p3jvE_gFO-jhuJnxZE7Sqsyf1cYsIu2KSRfCAWOxMn7bRw-RbEf0FpNNLf6-piGa-femUH=w480-h960-rw",
+    "button_text": "Update Now",
+    "button_url": "https://play.google.com/store/apps/details?id=com.onlinemusictubidy.tubestreamappmusic"
+  }
+}
