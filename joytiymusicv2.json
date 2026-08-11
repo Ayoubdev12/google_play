@@ -1,0 +1,64 @@
+{
+  "ads_enabled": true,
+  "ad_test_mode": false,
+  "download_buttons_enabled": true,
+
+  "ad_provider": "admob",
+  "app_open_provider": "applovin",
+  "interstitial_provider": "applovin",
+  "native_provider": "admob",
+
+  "app_open_enabled": true,
+  "interstitial_enabled": true,
+  "native_enabled": true,
+
+  "native_on_onboarding_enabled": true,
+  "native_on_language_screen_enabled": true,
+  "native_on_exit_popup_enabled": true,
+  "music_home_native_enabled": true,
+  "music_home_native_every": 6,
+  "search_native_enabled": true,
+  "search_native_every": 6,
+
+  "show_on_search_click": true,
+  "show_on_library_click": true,
+  "show_on_download_click": true,
+  "show_on_video_open": true,
+
+  "cooldown_seconds": 60,
+  "max_ads_per_session": 5,
+  "video_opens_for_ad": 2,
+
+  "applovin_sdk_key": "YOUR_APPLOVIN_SDK_KEY",
+  "applovin_app_open_android": "YOUR_APPLOVIN_ANDROID_APP_OPEN_AD_UNIT_ID",
+  "applovin_app_open_ios": "YOUR_APPLOVIN_IOS_APP_OPEN_AD_UNIT_ID",
+  "applovin_interstitial_android": "YOUR_APPLOVIN_ANDROID_INTERSTITIAL_AD_UNIT_ID",
+  "applovin_interstitial_ios": "YOUR_APPLOVIN_IOS_INTERSTITIAL_AD_UNIT_ID",
+  "applovin_test_device_advertising_ids": [],
+
+  "admob_app_open_android": "YOUR_ADMOB_ANDROID_APP_OPEN_ID",
+  "admob_app_open_ios": "YOUR_ADMOB_IOS_APP_OPEN_ID",
+  "admob_interstitial_android": "YOUR_ADMOB_ANDROID_INTERSTITIAL_ID",
+  "admob_interstitial_ios": "YOUR_ADMOB_IOS_INTERSTITIAL_ID",
+  "admob_native_android": "YOUR_ADMOB_ANDROID_NATIVE_ID",
+  "admob_native_ios": "YOUR_ADMOB_IOS_NATIVE_ID",
+
+  "yandex_app_open_ad_unit_id": "YOUR_YANDEX_APP_OPEN_ID",
+  "yandex_interstitial_ad_unit_id": "YOUR_YANDEX_INTERSTITIAL_ID",
+  "yandex_native_ad_unit_id": "YOUR_YANDEX_NATIVE_ID",
+
+  "meta_interstitial_android": "YOUR_META_ANDROID_INTERSTITIAL_PLACEMENT_ID",
+  "meta_native_android": "YOUR_META_ANDROID_NATIVE_PLACEMENT_ID",
+
+  "privacy_policy_url": "https://sites.google.com/view/playmate-tube/home",
+
+  "rate_app_enabled": true,
+  "rate_trigger": "first_successful_playback",
+  "rate_delay_seconds": 3,
+  "rate_first_session_only": true,
+  "rate_app_ios_store_id": "",
+
+  "popup": {
+    "enabled": false
+  }
+}
