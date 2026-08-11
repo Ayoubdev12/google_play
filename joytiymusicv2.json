@@ -6,7 +6,7 @@
   "ad_provider": "applovin",
   "app_open_provider": "applovin",
   "interstitial_provider": "applovin",
-  "native_provider": "admob",
+  "native_provider": "none",
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
