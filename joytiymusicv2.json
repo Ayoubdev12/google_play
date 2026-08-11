@@ -1,9 +1,9 @@
 {
   "ads_enabled": true,
-  "ad_test_mode": false,
+  "ad_test_mode": true,
   "download_buttons_enabled": true,
 
-  "ad_provider": "admob",
+  "ad_provider": "applovin",
   "app_open_provider": "applovin",
   "interstitial_provider": "applovin",
   "native_provider": "admob",
