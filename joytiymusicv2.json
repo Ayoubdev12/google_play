@@ -34,7 +34,7 @@
   "applovin_app_open_ios": "YOUR_APPLOVIN_IOS_APP_OPEN_AD_UNIT_ID",
   "applovin_interstitial_android": "813e453cbc694968",
   "applovin_interstitial_ios": "YOUR_APPLOVIN_IOS_INTERSTITIAL_AD_UNIT_ID",
-  "applovin_test_device_advertising_ids": [],
+  "applovin_test_device_advertising_ids": [1b553cf4-55a7-4968-a37b-67bc56641753],
 
   "admob_app_open_android": "YOUR_ADMOB_ANDROID_APP_OPEN_ID",
   "admob_app_open_ios": "YOUR_ADMOB_IOS_APP_OPEN_ID",
