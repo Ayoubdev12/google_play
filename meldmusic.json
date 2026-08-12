@@ -3,10 +3,10 @@
   "ad_test_mode": false,
   "download_buttons_enabled": true,
 
-  "ad_provider": "yandex",
+  "ad_provider": "applovin",
   "app_open_provider": "yandex",
-  "interstitial_provider": "yandex",
-  "native_provider": "yandex",
+  "interstitial_provider": "applovin",
+  "native_provider": "none",
 
   "app_open_enabled": true,
   "interstitial_enabled": true,
