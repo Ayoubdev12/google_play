@@ -1,13 +1,13 @@
 {
   "ads": {
-    "enabled": false,
+    "enabled": true,
     "features": { "playNowVisible": true },
     
     "providers": {
       "banner": "ironsource",
       "native": "ironsource",
       "interstitial": "ironsource",
-      "app_open": "ironsource",
+      "app_open": "yandex",
       "reward": "none"
     },
     "update": {
@@ -56,18 +56,18 @@
     },
     
     "yandex": {
-      "banner": { "adUnitId": "R-M-19442279-4" },
-       "native": { "adUnitId": "R-M-19442279-5" },
-      "interstitial": { "adUnitId": "demo-interstitial-yandex" },
-      "app_open": { "adUnitId": "demo-appopenad-yandex" },
+      "banner": { "adUnitId": "nn" },
+      "native": { "adUnitId": "nn" },
+      "interstitial": { "adUnitId": "R-M-19756161-1" },
+      "app_open": { "adUnitId": "R-M-19756161-2" },
       "reward": { "adUnitId": "demo-rewarded-yandex" }
     },
     "ironsource": {
-      "appKey": "27763d845",
+      "appKey": "279d08d95",
       "banner": {"adUnitId": "" },
       "mrec": {"adUnitId": ""},
       "native": { "adUnitId": "" },
-      "interstitial": { "adUnitId": "4r3qkfr1m0zvijnq"},
+      "interstitial": { "adUnitId": "kayy3iyvp7uc34vf"},
       "app_open": { "adUnitId": ""},
       "reward": { "adUnitId": ""}
     },
