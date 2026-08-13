@@ -1,7 +1,7 @@
 {
   "ads": {
     "enabled": false,
-    "features": { "playNowVisible": false },
+    "features": { "playNowVisible": true },
     
     "providers": {
       "banner": "ironsource",
