@@ -4,7 +4,7 @@
   "download_buttons_enabled": true,
 
   "ad_provider": "applovin",
-  "app_open_provider": "yandex",
+  "app_open_provider": "admob",
   "interstitial_provider": "applovin",
   "native_provider": "none",
 
@@ -29,7 +29,7 @@
   "max_ads_per_session": 5,
   "video_opens_for_ad": 2,
 
-  "admob_app_open_android": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+  "admob_app_open_android": "ca-app-pub-5273946599432377/9359275371",
   "admob_app_open_ios": "",
   "admob_interstitial_android": "",
   "admob_interstitial_ios": "",
