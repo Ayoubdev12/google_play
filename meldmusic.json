@@ -1,5 +1,5 @@
 {
-  "ads_enabled": true,
+  "ads_enabled": false,
   "ad_test_mode": false,
   "download_buttons_enabled": true,
 
@@ -60,11 +60,11 @@
   "rate_app_ios_store_id": "",
 
   "popup": {
-    "enabled": false,
+    "enabled": true,
     "title": "New Update Available",
     "message": "Please update the app to continue using the latest version.",
     "image_url": "",
     "button_text": "Update Now",
-    "button_url": ""
+    "button_url": "https://play.google.com/store/apps/details?id=com.onlinemusictubidy.tubestreamappmusic"
   }
 }
