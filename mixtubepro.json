@@ -29,9 +29,9 @@
   "max_ads_per_session": 5,
   "video_opens_for_ad": 2,
 
-  "admob_app_open_android": "cca-app-pub-5273946599432377/9265519371",
+  "admob_app_open_android": "ca-app-pub-5273946599432377/5177551812",
   "admob_app_open_ios": "",
-  "admob_interstitial_android": "ca-app-pub-5273946599432377/2891682715",
+  "admob_interstitial_android": "ca-app-pub-5273946599432377/7356992594",
   "admob_interstitial_ios": "",
   "admob_native_android": "",
   "admob_native_ios": "",
