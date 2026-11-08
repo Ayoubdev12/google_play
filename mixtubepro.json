@@ -31,10 +31,10 @@
 
   "admob_app_open_android": "cca-app-pub-5273946599432377/9265519371",
   "admob_app_open_ios": "ca-app-pub-5273946599432377/9265519371",
-  "admob_interstitial_android": "ca-app-pub-5273946599432377/2891682715",
+  "admob_interstitial_android": "ca-app-pub-3940256099942544/1033173712",
   "admob_interstitial_ios": "ca-app-pub-5273946599432377/2891682715",
   "admob_native_android": "",
-  "admob_native_ios": "",
+  "admob_native_ios": "ca-app-pub-3940256099942544/1033173712",
 
   "yandex_app_open_ad_unit_id": "demo-appopenad-yandex",
   "yandex_interstitial_ad_unit_id": "",
